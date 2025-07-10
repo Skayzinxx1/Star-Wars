@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+
+.cabecalho {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #f0c040;
+}
+
+.cabecalho h1 {
+  font-size: 36px;
+  color: #f0c040;
+  font-family: 'Star Jedi Outline', sans-serif;
+}
+
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main h2 {
+  color: #f0c040;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+main p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+main ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+main ul li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+main ul li::before {
+  content: "✦";
+  color: #f0c040;
+  position: absolute;
+  left: 0;
+}
+
+
+main img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  display: block;
+  border: 2px solid #f0c040;
+  border-radius: 10px;
+}
+
+
+.voltar-btn {
+  width: 7%;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 12px 25px;
+  background-color: #f0c040;
+  color: #0e0e0e;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+  text-align: center;
+}
+
+.voltar-btn:hover {
+  background-color: #cba030;
+  align-items: center;
+}
+
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  color: #888;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+
+  .cabecalho h1 {
+    font-size: 28px;
+  }
+
+  main h2 {
+    font-size: 22px;
+  }
+
+  main p {
+    font-size: 16px;
+  }
+}
+
+
+.boximg{
+  display: flex;
+  justify-content: center;
+}
+.boxbtn{
+  display: flex;
+  justify-content: center;
+}
