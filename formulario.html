@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário Din Djarin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Star+Jedi&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="formulario.css" />
+    <link rel="shortcut icon" href="img/starwars.png" type="image/x-icon">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulário Din Djarin</h1>
+        
+        <form action="#" method="POST">
+            
+            <div class="form-section">
+                <label for="nomeprincipal">Nome Completo</label>
+                <input type="text" id="nomeprincipal" class="nomeprincipal" placeholder="Digite seu nome completo" required />
+                
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="email" placeholder="Digite seu e-mail" required />
+                
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="telefone" placeholder="Digite seu telefone" required />
+            </div>
+
+           
+            <div class="form-section">
+                <label for="feedback">Como você avalia nossos serviços?</label>
+                <textarea id="feedback" class="feedback" placeholder="Deixe seu comentário sobre os serviços" rows="4" required></textarea>
+                
+                <label for="avaliacao">Avaliação (1 a 5):</label>
+                <input type="number" id="avaliacao" class="avaliacao" min="1" max="5" placeholder="Digite sua avaliação" required />
+            </div>
+
+          
+           <form>
+  <p>Você gostaria de contratar nossos serviços?</p>
+
+  <input type="radio" id="sim" name="contratar" value="sim" />
+  <label for="sim">Sim</label>
+
+  <input type="radio" id="nao" name="contratar" value="nao" />
+  <label for="nao">Não</label>
+
+  <div style="margin-top: 10px; border: 1px solid #ccc; padding: 10px; width: 60%;">
+    <strong>Contato para quem quiser contratar:</strong>
+    <p>Telefone: (34) 98765-4321</p>
+    <p>E-mail: contato@mandaloriano.com</p>
+  </div>
+<div class="boxbotao">
+  <button class="btnenviar" type="submit">Enviar</button>
+</div>
+
+</form>
+
+<div class="boxbotao">
+  <a class="tt" href="paginainicial.html"><button class="btnvoltar">Voltar</button></a>
+</div>
+
+</body>
+</html>

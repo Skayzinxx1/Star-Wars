@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Star Jedi', sans-serif;
+
+  background-color: #0d0d0d;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffe81f;
+  text-shadow: 2px 2px 5px #000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav button {
+  background-color: #ffe81f;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+nav button:hover {
+  transform: scale(1.05);
+  background-color: #fff000;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #333;
+}
+
+h2 {
+  color: #ffe81f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.item {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px #ffe81f44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.item img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+.botao-link {
+  display: inline-block;
+  background-color: #ffe81f;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.botao-link:hover {
+  background-color: #fff000;
+}
+
+.botao-link img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.item p.letra {
+  margin-top: auto;
+  text-align: center; 
+}
+.item:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+      }
+    .item {
+        transition: transform 0.3s ease;
+      }
